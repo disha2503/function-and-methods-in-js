@@ -1,0 +1,13 @@
+// sum of two no using function
+
+function sum(a,b){
+console.log(a+b,"")};
+sum(10,20);
+
+//using arrow function
+
+let arrowsum =(a,b) =>{
+    console.log(a+b);
+}
+arrowsum(5,6);
+
