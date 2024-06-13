@@ -1,0 +1,9 @@
+//given array of marks of student . Filter out of the marks of student that scored 90+
+
+
+let mark = [100,120,80,56];
+let maxMark = mark.filter((val) =>{
+
+return val > 90;
+});
+console.log(maxMark);
